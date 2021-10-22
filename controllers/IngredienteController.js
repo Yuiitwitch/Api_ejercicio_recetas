@@ -7,6 +7,5 @@ IngredienteController.obtenerTodos =  (req, res) =>{
 };
 IngredienteController.obtenerPorId =  (req, res) =>{
     res.json(ingredientes.porId(req.params.id));
-};
-
+  
 module.exports = IngredienteController;

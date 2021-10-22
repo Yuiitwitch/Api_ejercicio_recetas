@@ -9,4 +9,5 @@ router.get("/", IngredienteController.obtenerTodos);
 
 router.get("/:id", IngredienteController.obtenerPorId);
 
+
 module.exports = router;
