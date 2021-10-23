@@ -8,6 +8,7 @@ IngredienteController.obtenerTodos =  (req, res) =>{
 
 IngredienteController.obtenerPorId =  (req, res) =>{
     res.json(ingredientes.porId(req.params.id));
+<<<<<<< HEAD
 };
 
 IngredienteController.agregarRegistro =  (req, res) =>{
@@ -29,4 +30,7 @@ IngredienteController.borrarRegistro = (req, res) =>{
     res.json(ingredientes.eliminarIngrediente(id));
 }
 
+=======
+  
+>>>>>>> f02cc1e892b3e5e262754efd6c59c98ddf3dff2b
 module.exports = IngredienteController;
