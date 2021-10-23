@@ -9,4 +9,10 @@ router.get("/", IngredienteController.obtenerTodos);
 
 router.get("/:id", IngredienteController.obtenerPorId);
 
+router.post("/", IngredienteController.agregarRegistro);
+
+router.put("/:id", IngredienteController.actualizarRegistro);
+
+router.delete("/:id", IngredienteController.borrarRegistro);
+
 module.exports = router;
